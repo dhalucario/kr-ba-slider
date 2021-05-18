@@ -61,6 +61,9 @@ export default class KrBaSlider extends EventTarget {
     }
 
     onKnobHold(e) {
+        e.preventDefault();
+        e.stopPropagation();
+
         this.knobIsHeld = true;
         this.dispatchEvent(new CustomEvent('knobhold', {
             detail: {
@@ -71,11 +74,10 @@ export default class KrBaSlider extends EventTarget {
 
     onKnobTouchHold(e) {
         if (e.touches.length !== 1) return;
-
-        this.lastTouch = e.touches[0];
-
         e.preventDefault();
         e.stopPropagation();
+
+        this.lastTouch = e.touches[0];
         this.knobIsHeld = true;
 
         this.dispatchEvent(new CustomEvent('knobhold', {
