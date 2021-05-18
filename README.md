@@ -1,7 +1,7 @@
 # Kreativrudel Before After Slider
 
 ## Installation
-NPM: `npm install --save @kreativrudel/kr-ba-slider`
+NPM: `npm install --save kr-ba-slider`
 
 ## Usage
 

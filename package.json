@@ -1,5 +1,5 @@
 {
-  "name": "@kreativrudel/kr-ba-slider",
+  "name": "kr-ba-slider",
   "version": "1.0.0",
   "description": "A tiny before after slider",
   "main": "src/kr-ba-slider.js",
