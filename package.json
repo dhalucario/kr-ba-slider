@@ -1,0 +1,19 @@
+{
+  "name": "@kreativrudel/kr-ba-slider",
+  "version": "1.0.0",
+  "description": "A tiny before after slider",
+  "main": "src/kr-ba-slider.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhalucario/kr-ba-slider.git"
+  },
+  "author": "Leon Grünewald <leon.gruenewald@kreativrudel.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhalucario/kr-ba-slider/issues"
+  },
+  "homepage": "https://github.com/dhalucario/kr-ba-slider#readme"
+}
